@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+void eparouimpar (int x){
+	x = x % 2;
+	if (x == 0)
+		printf("\n  é par \n");
+	else {
+		printf("\n  é impar \n");
+	}
+}
+
+int main(){
+	int x;
+	printf("\n ******* É par ou É impar ******** \n");
+	printf("Digite o numero e descubra sua caracteristica\n");
+	scanf("%d",&x);
+	eparouimpar(x);
+	return 0;
+}
